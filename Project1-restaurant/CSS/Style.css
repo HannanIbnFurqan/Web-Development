@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/ASSETS/background.png');
+    background-size: cover;
+    /* background-position: center; */
+    height: 50vh;
+    width: 100%;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-items a{
+    /* margin-top: 10px; */
+    color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.image-logo-1{
+    margin-left: 20px;
+}
+
+.header-items{
+
+    display: flex;
+    gap: 75px;
+    list-style: none;
+}
+ .header-items li a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+ .button-1 button{
+    padding: 5px 30px 5px 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color: rgb(225, 110, 110);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+ /* margin-top: 0px; */
+ flex-direction: column;
+ gap: 30px;
+}
+.para h1{
+    font-size: 60px;
+    text-align: center;
+    color: goldenrod;
+    position: relative;
+    top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-2 button{
+    /* margin-top: 20px;  */
+    padding: 8px 20px 8px 20px;
+    font-size: 15px;
+    background-color: rgb(225, 110, 110);
+    border: none;
+    color: white;
+    position: relative;
+    top: 80px;
+    border-radius: 5px;
+}
+
+ .image-logo-2 img{
+    position: relative;
+    left: 90%;
+    top: 50px;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+}
+
