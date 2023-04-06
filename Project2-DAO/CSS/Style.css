@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/ASSETS/speed-drive-urban-architecture-city.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 0 30px 0; */
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+}
+ img{
+    margin-left: 40px;
+    margin-top: 0px;
+    /* background-color: black; */
+    height: 35px;
+    width: 70px;
+}
+
+.header-items{
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+    margin-right: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.header-items li{
+    list-style: none;
+}
+.header-items li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-items li a:hover{
+    color: violet;
+    text-decoration: underline;
+}
+
+
+.button-1 button{
+    margin: 2px 40px 0 0;
+    padding: 5px 8px 5px 8px;
+    font-family: 'Roboto', sans-serif;
+    background-color: violet;
+    color: white;
+    border: none; 
+    transition: all 0.3s ease-in-out; 
+    border-radius: 3px; 
+}
+
+.button-1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+  
+
+}
+
+.para h1 span{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.para span{
+    font-size: 70px;
+}
+
+.button-2 button{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 2px 5px 2px 5px ;
+    font-family: 'Roboto', sans-serif;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-2 button:hover{
+    background-color: white;
+    color: black;
+}
+
+
