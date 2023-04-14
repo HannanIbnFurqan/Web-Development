@@ -1,0 +1,401 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-header-1 {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* align-items: center; */
+}
+body {
+  background: #000;
+  font-family: "Poppins", sans-serif;
+}
+.main-img-logo img {
+  margin: 0;
+  height: 565px;
+}
+
+.main-img img {
+  margin-top: 30px;
+}
+ul {
+  display: flex;
+  gap: 55px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul button {
+  padding: 7px 25px 7px 25px;
+  color: white;
+  background-color: #3d3b3b;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
+
+ul button:hover{
+  color: black;
+  background-color: white;
+}
+
+.main-h1-h3-p {
+  margin: 80px 200px 0 0px;
+}
+
+.main-h2-h3-p {
+  margin-right: 20px;
+  color: white;
+}
+
+h1 {
+  margin-left: 50px;
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.354);
+}
+
+h2 {
+  font-size: 45px;
+  margin-top: 3px;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+p {
+  margin-top: 5px;
+  line-height: 25px;
+}
+
+#button-2 {
+  margin-top: 20px;
+  padding: 7px 15px 7px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+  background: #343131;
+  border: none;
+  border-radius: 3px;
+}
+
+#button-2 i {
+  padding-right: 30px;
+  margin: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.div-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.main-section-secs {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.ul-li-i-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0 3rem 0;
+}
+
+.main-items {
+  color: white;
+  margin-top: 7rem;
+}
+
+.main-section-headphone-img img {
+  margin-top: 10rem;
+  position: relative;
+  right: 30px;
+}
+
+#bluetooth {
+  margin: 0px 0 0px 4rem;
+}
+
+#microphone {
+  margin: 2rem 0 0px 4rem;
+}
+
+.div-items {
+  margin: 30px 0 0 10px;
+}
+/* main-section-3 --------------------------------------------------------------------------------------------------------------- */
+
+#Case-logo {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+  /* margin-top: 20px; */
+}
+
+.case-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.case-img {
+  margin-left: 4rem;
+}
+
+.para-button p {
+  margin-left: 5rem;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(250, 243, 243, 0.822);
+}
+
+#button-3 button {
+  margin: 2rem 0 0 9rem;
+  gap: 1rem;
+  padding: 6px 1rem 6px 1rem;
+  background-color: rgba(250, 243, 243, 0.263);
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+#button-3 i {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.container-items {
+  height: 565px;
+  width: 1000px;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #3d3b3b; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* background-color: #3d3b3b; */
+}
+
+.h1-p-button {
+  /* margin-top: 10rem; */
+  height: 350px;
+  width: 1000px;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #242222dc;
+  border-radius: 1rem;
+}
+
+.h1-p-button p,
+button {
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.h1-p-button button {
+  margin-left: 4.5rem;
+  margin-top: 1.5rem;
+  color: white;
+  background-color: #191717e3;
+  border: none;
+  border-radius: 3px;
+}
+
+.h1-p-button h1 {
+  margin-left: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.h1-p-btn {
+  padding: 5px 10px 5px 10px;
+}
+
+.h1-p-btn i {
+  margin-right: 15px;
+}
+
+/* main-section-5 ..................................................................*/
+
+.product-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box-container{
+  margin-top: 6rem;
+}
+
+.style-boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+  
+.box{
+  height: 150px;
+  width: 150px;
+  /* border: 2px solid white; */
+  margin: 10px 1.5rem 4.5rem 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(75, 71, 71, 0.751);
+  
+  
+}
+
+#box5{
+  transform: translateX(-60%);
+}
+
+.box img{
+  margin-left: 1.5rem;
+  transform: translateY(-45%);
+}
+
+.box p{
+   transform: translateY(-85%);
+   margin-left: 1rem;
+}
+
+.box i{
+  margin-left: 40px;
+  padding-left: 5px;
+  padding-top: 3px;
+  /* border: 2px solid black; */
+  background-color: black;
+  border-radius: 7px;
+  height: 25px;
+  width: 25px;
+  /* background-color: #000; */
+}
+
+/* ------------------------------------------------------ */
+
+.main-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* transform: translateY(-50%); */
+  margin-bottom: 10rem;
+}
+
+.footer-items{
+  height: 200px;
+  width: 200px;
+  /* border: 2px solid white; */
+  margin-top: 2.5rem;
+  margin-left: 20px;
+  text-align: start;
+  line-height: 40px;
+}
+
+.footer-items li{
+  list-style: none;
+}
+
+.footer img{ 
+
+  transform: translateY(330%);
+  margin-left: 2.5rem;
+
+}
+
+
+#footer-button {
+     /* transform: translateY(-50%); */
+     margin-right: 100px;
+
+}
+
+input{
+  transform: translateY(-130%);
+  margin-top: 3rem;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  background-color: #808080;
+  border: none;
+  border-radius: 3px;
+
+}
+
+#Footer-button{
+    transform: translate(-210% , -194%);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+}
+#Footer-button:hover{
+       
+       color: black;
+       background-color: white;
+}
+
+input::placeholder{
+  color: white;
+}
+
+.h3-li{
+  margin-left: 12rem;
+}
+
+#font-footer4{
+     
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+#font-footer3{
+     
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+#font-footer2{
+     
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+#font-footer1{
+     
+  margin-left: 10px;
+  font-size: 20px;
+}
